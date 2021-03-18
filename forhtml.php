@@ -9,8 +9,8 @@
 <body>
     <select name="">
         <?php for($i=1990; $i <= 2021;$i++){ ?>
-                <option value="<?php echo $i; ?>" <?php if($i==1998){ echo "selected"; }?> ><?php echo $i; ?></option>
+                <option value="<?php echo $i; ?>" <?php if($i==1998){ echo "selected"; }?>><?php echo $i; ?></option>
         <?php } ?>
-                </select>
+    </select>
 </body>
 </html>
